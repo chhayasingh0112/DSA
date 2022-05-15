@@ -1,0 +1,16 @@
+﻿  main.cpp
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(8,38): error C2535: 'std::string Printable::GetClassName(void)': member function already defined or declared
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(7): message : see declaration of 'Printable::GetClassName'
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(20,22): warning C4584: 'Player': base-class 'Printable' is already a base-class of 'Entity'
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(4): message : see declaration of 'Printable'
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(13): message : see declaration of 'Entity'
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(44): error C2259: 'Entity': cannot instantiate abstract class
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(13): message : see declaration of 'Entity'
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(44): message : due to following members:
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(44): message : 'std::string Printable::GetClassName(void)': is abstract
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(7): message : see declaration of 'Printable::GetClassName'
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(44,24): error C2259: 'Entity': cannot instantiate abstract class
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(13): message : see declaration of 'Entity'
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(44,24): message : due to following members:
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(44,24): message : 'std::string Printable::GetClassName(void)': is abstract
+C:\Users\Chaya\Desktop\c++\Interface (a true virtual function)\Interface (a true virtual function)\main.cpp(7): message : see declaration of 'Printable::GetClassName'
