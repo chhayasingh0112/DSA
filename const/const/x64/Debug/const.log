@@ -1,2 +1,3 @@
 ﻿  const.cpp
+C:\Users\Chaya\Desktop\c++\const\const\const.cpp(28,9): warning C4101: 'e': unreferenced local variable
   const.vcxproj -> C:\Users\Chaya\Desktop\c++\const\x64\Debug\const.exe
