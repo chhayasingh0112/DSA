@@ -6,12 +6,14 @@ class Entity
 {
 private:
 	std::string m_Name;
+	
 public:
 	Entity()
+		: m_Name("Unknown")
 	{
-		m_Name = "Unknown";
 	}
 	Entity(const std::string& name)
+		: m_Name(name)
 	{
 		m_Name = name;
 	}
@@ -24,7 +26,7 @@ int main()
 	Entity e0;
 	std::cout << e0.GetName() << std::endl;
 
-	Entity e1("Sanika QT");
+	Entity e1("Sanika");
 	std::cout << e1.GetName() << std::endl;
 
 	std::cin.get();
