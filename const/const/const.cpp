@@ -5,8 +5,8 @@ int main()
 {
 	const int MAX_AGE = 90;
 
-	int* a = new int;
-	*a = 2;
+	const int* a = new int;
+
 	a = (int*)&MAX_AGE;
 
 	std::cout << *a << std::endl;
