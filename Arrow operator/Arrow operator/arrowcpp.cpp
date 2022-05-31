@@ -7,12 +7,32 @@ public:
 	void Print() const { std::cout << "Hello!" << std::endl; }
 };
 
+class ScopedPtr
+{
+private:
+	Entity* m_obj;
+public:
+	ScopedPtr(Entity* entity)
+		: m_obj(entity)
+	{
+	}
+
+	~ScopedPtr()
+	{
+		delete m_obj;
+	}
+
+	Entity* operator->()
+	{
+		return m_obj;
+	}
+};
+
 int main()
 {
-	Entity e;
-	//e.Print();
+	ScopedPtr entity = new Entity();
+	entity->Print();
 
-	Entity* ptr = &e;
-	ptr->Print();
+
 	std::cin.get();
 }
