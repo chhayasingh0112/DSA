@@ -1,2 +1,4 @@
 ﻿  arrowcpp.cpp
+C:\Users\Chaya\Desktop\c++\Arrow operator\Arrow operator\arrowcpp.cpp(12,43): warning C4311: 'type cast': pointer truncation from 'float *' to 'int'
+C:\Users\Chaya\Desktop\c++\Arrow operator\Arrow operator\arrowcpp.cpp(12,43): warning C4302: 'type cast': truncation from 'float *' to 'int'
   Arrow operator.vcxproj -> C:\Users\Chaya\Desktop\c++\Arrow operator\x64\Debug\Arrow operator.exe

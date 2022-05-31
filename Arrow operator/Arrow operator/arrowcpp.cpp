@@ -1,37 +1,17 @@
 #include <iostream>
 #include<string>
 
-class Entity
+struct Vector3
 {
-public:
-	void Print() const { std::cout << "Hello!" << std::endl; }
+	float x, y, z;
 };
 
-class ScopedPtr
-{
-private:
-	Entity* m_obj;
-public:
-	ScopedPtr(Entity* entity)
-		: m_obj(entity)
-	{
-	}
-
-	~ScopedPtr()
-	{
-		delete m_obj;
-	}
-
-	Entity* operator->()
-	{
-		return m_obj;
-	}
-};
 
 int main()
 {
-	ScopedPtr entity = new Entity();
-	entity->Print();
+	int offset = (int)&((Vector3*)nullptr)->z;
+	std::cout << offset << std::endl;
+
 
 
 	std::cin.get();
