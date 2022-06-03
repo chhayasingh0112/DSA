@@ -1,0 +1,27 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.31.31103\include\xmemory(680,68): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.31.31103\include\vector(602): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int,int>(_Alloc &,_Objty *const ,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.31.31103\include\vector(607): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int,int>(_Alloc &,_Objty *const ,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.31.31103\include\vector(620): message : see reference to function template instantiation 'void std::vector<Vertex,std::allocator<Vertex>>::_Emplace_back_with_unused_capacity<_Ty,_Ty,_Ty>(_Ty &&,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Chaya\Desktop\c++\Optimizing the usage of vector\Optimizing the usage of vector\Source.cpp(25): message : see reference to function template instantiation 'void std::vector<Vertex,std::allocator<Vertex>>::emplace_back<int,int,int>(int &&,int &&,int &&)' being compiled
+  Optimizing the usage of vector.vcxproj -> C:\Users\Chaya\Desktop\c++\Optimizing the usage of vector\x64\Debug\Optimizing the usage of vector.exe
