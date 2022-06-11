@@ -12,7 +12,7 @@ int main()
 		if (b == 1)
 			return true;
 
-		return a < b;
+  		return a < b;
 		});
 
 	for (int value : values)
