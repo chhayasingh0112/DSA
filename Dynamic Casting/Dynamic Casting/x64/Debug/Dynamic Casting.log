@@ -1,0 +1,5 @@
+﻿  DynamicCasting.cpp
+C:\Users\Chaya\Desktop\c++\Dynamic Casting\Dynamic Casting\DynamicCasting.cpp(26,10): error C2065: 'p0': undeclared identifier
+C:\Users\Chaya\Desktop\c++\Dynamic Casting\Dynamic Casting\DynamicCasting.cpp(26,15): warning C4541: 'dynamic_cast' used on polymorphic type 'Entity' with /GR-; unpredictable behavior may result
+C:\Users\Chaya\Desktop\c++\Dynamic Casting\Dynamic Casting\DynamicCasting.cpp(32,10): error C2065: 'p1': undeclared identifier
+C:\Users\Chaya\Desktop\c++\Dynamic Casting\Dynamic Casting\DynamicCasting.cpp(32,15): warning C4541: 'dynamic_cast' used on polymorphic type 'Entity' with /GR-; unpredictable behavior may result
