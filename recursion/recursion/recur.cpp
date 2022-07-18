@@ -5,6 +5,7 @@ void fun(int n)
 	{
 		printf("%d", n);
 		fun(n - 1);
+		fun(n - 1);
 	}
 
 }
@@ -13,4 +14,5 @@ void main()
 {
 	int x = 3;
 	fun(x);
+	
 }

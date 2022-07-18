@@ -1,0 +1,7 @@
+﻿  recur.cpp
+C:\Users\Chaya\Desktop\c++\recursion\recursion\recur.cpp(14,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  recursion.vcxproj -> C:\Users\Chaya\Desktop\c++\recursion\x64\Release\#.exe
