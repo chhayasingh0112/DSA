@@ -1,0 +1,3 @@
+﻿  indirect.cpp
+C:\Users\Chaya\Desktop\c++\Indirect Recurtion\Indirect Recurtion\indirect.cpp(27,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Indirect Recurtion.vcxproj -> C:\Users\Chaya\Desktop\c++\Indirect Recurtion\x64\Debug\Indirect Recurtion.exe
