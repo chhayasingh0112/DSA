@@ -18,5 +18,8 @@
     <ClCompile Include="recur.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="nested.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
