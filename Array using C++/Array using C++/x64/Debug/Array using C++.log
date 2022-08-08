@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(327,19): error C2001: newline in constant
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(328,10): error C2001: newline in constant
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(328,4): error C2146: syntax error: missing ';' before identifier 'index'
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(328,10): error C2143: syntax error: missing ';' before 'string'
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(329,4): error C2146: syntax error: missing ';' before identifier 'cin'
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(337,18): error C2001: newline in constant
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(338,4): error C2001: newline in constant
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(339,4): error C2146: syntax error: missing ';' before identifier 'cin'
+C:\Users\Chaya\Desktop\c++\Array using C++\Array using C++\Source.cpp(312,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
