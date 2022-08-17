@@ -44,7 +44,7 @@ void Diagonal::Display()
 		for (int j = 1; j <= n; j++)
 		{
 			if (i == j)
-				cout << A[i - 1] << "";
+				cout << A[i] ;
 			else
 				cout << "0 ";
 		}
