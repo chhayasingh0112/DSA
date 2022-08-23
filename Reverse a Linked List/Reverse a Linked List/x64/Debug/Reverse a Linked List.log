@@ -1,0 +1,4 @@
+﻿  reverse.cpp
+C:\Users\Chaya\Desktop\c++\Reverse a Linked List\Reverse a Linked List\reverse.cpp(39,33): error C3861: 'count': identifier not found
+C:\Users\Chaya\Desktop\c++\Reverse a Linked List\Reverse a Linked List\reverse.cpp(86,11): error C2065: 'frist': undeclared identifier
+C:\Users\Chaya\Desktop\c++\Reverse a Linked List\Reverse a Linked List\reverse.cpp(87,10): error C2065: 'frist': undeclared identifier
