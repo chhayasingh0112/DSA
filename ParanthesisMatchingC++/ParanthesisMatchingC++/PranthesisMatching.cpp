@@ -99,12 +99,12 @@ bool isBalanced(char* exp) {
     for (int i = 0; i < strlen(exp); i++) {
 
         // ( found: Push to stack
-        if (exp[i] == '(') {
+        if (exp[i] == '('|| exp[i] == '{' || exp[i] == '[') {
             stk.push(exp[i]);
 
             // ( found
         }
-        else if (exp[i] == ')') {
+        else if (exp[i] == ')' || exp[i] == '}' || exp[i] == ']') {
 
             // ) and stack is empty: Unbalanced expression
             if (stk.isEmpty()) {
@@ -128,7 +128,7 @@ int main() {
     char E[] = "((a+b)*(c-d))";
     cout << isBalanced(E) << endl;
 
-    char F[] = "((a+b)*(c-d)))";
+    char F[] = "{([a+b]*[c-d])}";
     cout << isBalanced(F) << endl;
 
     char G[] = "(((a+b)*(c-d))";
