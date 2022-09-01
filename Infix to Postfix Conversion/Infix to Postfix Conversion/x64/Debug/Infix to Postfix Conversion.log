@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Chaya\Desktop\c++\Infix to Postfix Conversion\Infix to Postfix Conversion\Source.cpp(94,26): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\Chaya\Desktop\c++\Infix to Postfix Conversion\Infix to Postfix Conversion\Source.cpp(119,27): error C2440: 'initializing': cannot convert from 'const char [10]' to 'char *'
+C:\Users\Chaya\Desktop\c++\Infix to Postfix Conversion\Infix to Postfix Conversion\Source.cpp(119,14): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
